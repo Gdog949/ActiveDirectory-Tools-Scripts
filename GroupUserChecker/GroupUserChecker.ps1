@@ -96,7 +96,7 @@ A Security Account Manager account name (sAMAccountName)
 #>
 $groupToCheck = "GroupName"
 #csv file that has users you want to check make certain the 
-###CSV header is as follows FirstName, LastName, FirstName.LastName####
+###CSV header is as follows FirstName, LastName, Name(FirstName.LastName)####
 $CSVInputPath = "C:\PathTo\Example Input.csv"
 $CSVOutPutPath = "C:\PathTo\Output.csv"
 CompareGroupstoCSV -GroupName $groupToCheck -CSVFilePath $CSVInputPath -CSVFileOutPath $CSVOutPutPath
